@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css' integrity='sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==' crossorigin='anonymous'/>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.js' integrity='sha512-+dJa1RvuE8/HFftifMtr7hqixdEkb/DizfXUZAA0pyZeVdNnyZyKy9RnIWi0JSWUznbCNbaQNn0E6nbtrdL+9g==' crossorigin='anonymous'></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Libreria</title>
+</head>
+<body>
+  
+  <div class="container my-5">
+    <h1 class="text-center mb-5">La mia libreria</h1>
+    <div>
+      <div class="row">
+        <div class="col-6  mb-5">
+          <form action="#" class="d-flex">
+            <input type="text" class="form-control me-3" placeholder="Autore">
+            <button class="btn btn-success">Cerca</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="loader text-center">
+      <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <h3 class="text-center text-danger"></h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Titolo</th>
+          <th scope="col">Autore</th>
+          <th scope="col">Anno prima pubblicazione</th>
+          <th scope="col">ISBN</th>
+        </tr>
+      </thead>
+      <tbody>
+      
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
